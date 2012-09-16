@@ -1,0 +1,371 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face
+{
+	font-family:brannboll;
+	src: url(fonts/BrannbollFet.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family:bebas;
+	src: url(fonts/BebasNeue.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: url("img/noisy_grid.png") #f7f7f7;
+}
+
+#branding
+{
+	width: 800px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+h1
+{
+	text-align:center;
+	color: #444;
+	font: 120px bebas, brannboll, Georgia;
+}
+
+h1 span
+{
+	color: #0097f5;
+}
+
+h3
+{
+	text-align:center;
+	color: #444;
+	font: 30px bebas,"Trebuchet MS", Tahoma, Verdana;
+	letter-spacing: 8px;
+}
+
+h2
+{
+	text-align:left;
+	color: #2c2c2c;
+	font: 14px verdana, Tahoma, "Trebuchet MS";
+	width: 700px;
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 25px;
+	display:none;
+	border: 1px dotted #2e2e2e;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+h2 span
+{
+	color: #0097f5;
+}
+
+#content
+{
+	text-align:center;
+	padding: 10px;
+	border: 25px solid #161616;
+	width: 500px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000;
+}
+
+.rsbutton
+{
+	background: #0097f5;
+	padding: 10px 30px;
+	color: #fff;
+	border-radius: 20px;
+	font: 14px Tahoma, Verdana, "Trebuchet MS";
+}
+
+.rsbutton:hover
+{
+	background: #0483D3;
+}
+
+.rsbutton:active
+{
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+a:visited
+{
+	color: #fff;
+}
+
+#logo-section
+{
+	padding-top: 95px;
+	text-align:center;
+}
+
+#logo-section img
+{
+	width: 128px;
+}
+
+#social
+{
+	text-align:center;
+}
+
+#signup-section
+{
+	padding-top:20px;
+	padding-right: 20px;
+	text-align:right;
+}
+
+#header-section
+{
+	padding-top: 20px;
+	margin: 0 10px;
+}
+
+#header-section img
+{
+	width: 24px;
+}
+
+#company-name
+{
+	font: 29px bebas,Tahoma,verdana;
+	letter-spacing: 1px;
+}
+
+#company-name span
+{
+	color: #0097f5;
+}
+
+.l-float
+{
+	float:left;
+}
+
+.r-float
+{
+	float:right;
+}
+
+.cls
+{
+	clear:both;
+}
+
+.highlight-444
+{
+	background: #444;
+	padding: 5px 10px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 3px;
+	font: 14px Verdana, Tahoma, "Trebuchet MS";
+	cursor: normal;
+}
+
+hr
+{
+	border: 1px solid #c0c0c0;
+	margin: 5px 20px;
+}
+
+#carea
+{
+	width: 800px;
+	margin: 0 auto;
+}
+
+textarea
+{
+	padding: 10px;
+}
+
+input[type="text"]
+{
+	padding: 3px;
+}
+
+.place-for
+{
+	margin-top: 5px;
+}
+
+h4
+{
+	font: 33px bebas, Verdana, Tahoma;
+}
+
+h4 span
+{
+	color: #0097f5;
+}
+
+#stories
+{
+	list-style:none;
+	width: 100%;
+}
+
+.story
+{
+	padding: 10px;
+	border: 2px dashed #a0a0a0;
+	margin-top: 10px;
+}
+
+.story:hover
+{
+	cursor:pointer;
+	background: #e2e2e2;
+}
+
+.story-main
+{
+	font: 40px bebas, Verdana, Tahoma;
+}
+
+.story-expert-part
+{
+	background: #d6d6d6;
+	padding: 5px;
+	border-radius: 3px;
+	margin-right: 5px;
+	font: 12px Verdana;
+	box-shadow: 0 0 2px #2c2c2c;
+}
+
+.story-actions
+{
+	display:none;
+}
+
+.story-deadline
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font: 12px Verdana;
+}
+
+.story-deadline-doing
+{
+	background: #ba1a1a;
+	padding: 5px;
+	color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 2px #2c2c2c;
+}
+
+.story-deadline-done
+{
+	background: #059b4c;
+	padding: 5px;
+	border-radius: 3px;
+	color: #fff;
+	box-shadow: 0 0 2px #2c2c2c;
+}
+
+#alert
+{
+	background: #0097f5;
+	padding: 10px;
+	text-align:center;
+	box-shadow: 0 0 5px #c2c2c2;
+	font: 14px verdana,tahoma,"trebuchet MS";
+	color: #fff;
+}
+
+.logout-button
+{
+	background: #d6d6d6;
+	padding: 5px 10px;
+	margin-right: 10px;
+	color: #2c2c2c;
+	border-radius: 3px;
+	font: italic 14px Verdana, Tahoma, "Trebuchet MS";
+	cursor: normal;
+}
+
+.notif
+{
+	padding: 5px 10px;
+	font: bold 16px Verdana;
+	border-radius: 4px;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+.notif-none
+{
+	background: #d6d6d6;
+}
+
+.notif-present
+{
+	background: #0097f5;
+	color: #fff;
+}
+
+#notifs-area
+{
+	list-style:none;
+}
+
+#notifs-area li
+{
+	padding: 10px;
+	margin-bottom: 5px;
+	background: #d6d6d6;
+	font: 14px "Trebuchet MS", Tahoma, Verdana;
+	border: 1px solid #d6d6d6;
+	cursor:pointer;
+	color: #000;
+}
+
+#notifs-area li:hover
+{
+	border: 1px dotted #2c2c2c;
+}
+
+.notifs-end
+{
+	text-align:center;
+	font: 16px Verdana;
+}
+
+#response-section
+{
+	text-align:left;
+	color: #2c2c2c;
+	font: 14px verdana, Tahoma, "Trebuchet MS";
+	text-align: justify;
+	line-height: 25px;
+	border: 1px dotted #2e2e2e;
+	padding: 10px;
+	border-radius: 10px;
+	background: #f0f0f0;
+}
