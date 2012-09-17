@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+	 <TextView
+		        android:id="@+id/tag"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#0097f5"
+		        android:text=" " />
+
+		    <TextView
+		        android:id="@+id/subject"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Subject"
+		        android:layout_margin="8dp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+			<View
+		    	android:layout_width="fill_parent"
+			    android:layout_height="1dp"
+			    android:background="#0097f5"/>
+			
+			<EditText
+		        android:id="@+id/editText1"
+		        android:layout_width="match_parent"
+		        android:layout_height="200dp"
+		        android:inputType="textMultiLine"
+		        android:layout_margin="16dp" android:gravity="bottom">
+		
+		        <requestFocus />
+		    </EditText>
+		
+		    <Button
+		        android:id="@+id/button1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Reply"
+		        android:layout_margin="16dp"
+		        android:background="#0097f5"
+		        android:textColor="@android:color/white" />
+	<!-- <ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	
+	    
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+	    
+	       
+	        
+	    </LinearLayout>
+	</ScrollView> -->
+	
+    
+
+</LinearLayout>
+<!-- 
+<TextView
+		        android:id="@+id/mediacontent"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="8dp"
+		        android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;"
+		        android:textAppearance="?android:attr/textAppearanceMedium" android:isScrollContainer="true"/> -->
